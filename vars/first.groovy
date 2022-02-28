@@ -1,3 +1,3 @@
-def call(String name = 'human') {
-    echo "Hello, ${name}."
+def call(String name, String ToDay) {
+    echo "Hello, ${name} today is ${ToDay}."
 }
